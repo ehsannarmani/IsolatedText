@@ -43,6 +43,7 @@ import ir.ehsan.isolatedtext.WordType
 import ir.ehsan.isolatedtext.defaultMiscWords
 import ir.ehsan.languagesplitertext.ui.theme.LanguageSpliterTextTheme
 import ir.ehsan.languagesplitertext.ui.theme.blomFont
+import ir.ehsan.languagesplitertext.ui.theme.chewyFont
 import ir.ehsan.languagesplitertext.ui.theme.knickFont
 import ir.ehsan.languagesplitertext.ui.theme.ubuntuFont
 import ir.ehsan.languagesplitertext.ui.theme.vazirFont
@@ -76,7 +77,7 @@ class MainActivity : ComponentActivity() {
                                 fontSize = 20.sp,
                                 shadow = Shadow(
                                     color = Color(0xff313131),
-                                    Offset(4f,4f),
+                                    Offset(4f, 4f),
                                     blurRadius = 7f
                                 ),
                                 color = Color(0xFF212121),
